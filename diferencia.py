@@ -1,8 +1,12 @@
 
 from math import sin, cos
 
-def sin_cos(x):
-    print(sin(x) - cos(x))
+#Define la funcion, halla la diferencia entre sen y cos
+def sin_cos(angle):
+    print(sin(angle) - cos(angle))
 
-x = float(input())
-sin_cos(x)
+#Lee la entrada (el angulo en radianes como valor flotante)
+angle = float(input())
+
+#Llama la funciona para calcular e imprimir el resultado
+sin_cos(angle)
