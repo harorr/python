@@ -13,9 +13,5 @@ def octahedron_area_vol(edge_lenght):
 
 #Llama la funcion
 octahedron_area_vol(edge_lenght)
-    
-
-
-
 
 
