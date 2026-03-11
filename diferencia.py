@@ -10,3 +10,4 @@ angle = float(input())
 
 #Llama la funciona para calcular e imprimir el resultado
 sin_cos(angle)
+
