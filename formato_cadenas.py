@@ -1,8 +1,12 @@
 
-word = str(input('Escriba la palabra que desea: '))
+#Variable para escribir la palabra en tipo cadena.
+word = str(input('Write your desired word: '))
 
-def calcular_longitud(word):
+#Funcion para contar las letras de la palabra y luego concatenarlas en el print.
+def calculate_lenght(word):
     word_lenght = len(word)
-    print(f'{word} tiene {word_lenght} letras')
+    print(f'{word} has {word_lenght} letters')
 
-calcular_longitud(word)
+#LLama la funcion
+calculate_lenght(word)
+
