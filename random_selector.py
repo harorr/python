@@ -19,12 +19,4 @@ def random_number():
             print("Great, you did it this time!!")
             break
             
-random_number() 
-        
-        
-
-
-
-        
-        
-        
+random_number()
