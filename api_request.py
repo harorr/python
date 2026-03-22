@@ -10,3 +10,4 @@ for country_code in country_codes:
     result = r.json()
     life_expectancy = result["value"][0]["NumericValue"]
     print(country_code, life_expectancy)
+

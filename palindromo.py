@@ -11,3 +11,5 @@ else: print("Esta palabra no es un palindromo")
 txt = " Hello World "
 x = txt.strip()
 print(x)
+
+
